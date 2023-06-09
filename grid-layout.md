@@ -1,4 +1,4 @@
-### index.html
+> **index.html**
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -33,7 +33,7 @@
 </html>
 ```
 
-### style.css
+> **style.css**
 ```css
 body {
     margin: 0;
