@@ -70,4 +70,12 @@ db.collection.updateMany()
 ```javascript
 db.collection.deleteOne()
 db.collection.deleteMany()
+
+<model_name>.deleteMany({ <filter>: "<value>" })
+    .then(function () {
+      console.log("Data deleted");
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
 ```
